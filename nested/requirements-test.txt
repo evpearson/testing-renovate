@@ -1,0 +1,15 @@
+bandit==1.6.2
+black==21.10b0
+flake8-broken-line==0.4.0
+flake8-bugbear==21.9.2
+flake8-comprehensions==3.7.0
+flake8-eradicate==1.2.0
+flake8-print==4.0.0
+flake8==4.0.1
+isort==5.10.1
+mypy==0.910
+pdbpp==0.10.3
+pytest-cov==3.0.0
+pytest-mock==3.6.1
+pytest==6.2.5
+wf-bandit-tests==1.0.1
