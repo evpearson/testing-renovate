@@ -4,7 +4,7 @@
   "labels": ["dependencies", "renovate"],
   // for testing only
   "recreateClosed": true,
-    "packageRules": [
+  "packageRules": [
     {
       "matchManagers": ["pip_requirements"],
       "matchUpdateTypes": ["patch", "minor"],
