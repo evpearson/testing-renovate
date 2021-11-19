@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "prHourlyLimit": 4,
+  "prHourlyLimit": 500,
   "labels": ["dependencies", "renovate"],
   // for testing only
   "recreateClosed": true,
