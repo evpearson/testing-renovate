@@ -10,7 +10,7 @@
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "Python Dependencies Non Major",
       "matchCurrentVersion": ">=1.0.0"
-    }
+    },
     // Any version updates on 0.x packages may be breaking
     {
       "matchManagers": ["pip_requirements"],
