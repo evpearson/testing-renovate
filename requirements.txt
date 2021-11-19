@@ -1,0 +1,22 @@
+click==8.0.3
+ddtrace==0.55.4
+dohq-artifactory==0.7.742
+Flask==2.0.2
+gevent==21.8.0
+gunicorn==20.1.0
+kubernetes==19.15.0
+little-cheesemonger==0.2.1
+marble-snake==1.2.0
+packaging==21.2
+pkginfo==1.7.1
+pydantic==1.8.2
+requests==2.26.0
+Werkzeug==2.0.2
+wf-certifi==2021.07.14
+wf-config==1.0.1
+wf-healthcheck==2.4.0
+wf-logging==1.1.2
+wf-secrets==1.1.0
+wf-stats==3.1.4
+# Note: cannot upgrade past 0.31.1 without refactoring test suite due to change in API
+wheel==0.31.1
