@@ -28,7 +28,7 @@
     "fileMatch": [
         "(^|/)([\\w-]*)requirements.*\\.(txt|pip)$",
         ".*requirements-test\\.txt.*",
-        ".*nested\\/requirements.*\\.(txt|pip)$",
+        ".*requirements.*\\.txt$",
     ]
   }
 }
