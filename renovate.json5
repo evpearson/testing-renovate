@@ -10,14 +10,14 @@
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "Python Dependencies Non Major",
       "matchCurrentVersion": ">=1.0.0"
-    },
-    // Any version updates on 0.x packages may be breaking
-    {
-      "matchManagers": ["pip_requirements"],
-      "matchUpdateTypes": ["patch", "minor"],
-      "matchCurrentVersion": "<1.0.0",
-      "commitMessageSuffix": " (potentially breaking change on 0.x dependency)"
     }
+    // Any version updates on 0.x packages may be breaking
+//    {
+//      "matchManagers": ["pip_requirements"],
+//      "matchUpdateTypes": ["patch", "minor"],
+//      "matchCurrentVersion": "<1.0.0",
+//      "commitMessageSuffix": " (potentially breaking change on 0.x dependency)"
+ //   }
   ],
   "pip_requirements": {
     "fileMatch": [
