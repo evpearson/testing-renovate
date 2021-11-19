@@ -1,5 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "prHourlyLimit": 4,
-  "labels": ["dependencies", "renovate"]
+  "labels": ["dependencies", "renovate"],
+    "packageRules": [
+    {
+      "matchManagers": ["pip_requirements"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "Python Dependencies Non Major",
+      "matchCurrentVersion": "!/^0\\./"
+    }
+  ],
+  "pip_requirements": {
+    "fileMatch": [
+        "(^|/)([\\w-]*)requirements.*\\.(txt|pip)$",
+        ".*requirements-test\\.txt.*"
+    ]
+  }
 }
