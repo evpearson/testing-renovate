@@ -7,7 +7,7 @@
       "matchManagers": ["pip_requirements"],
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "Python Dependencies Non Major",
-      "matchCurrentVersion": "!/^0\\./"
+      "allowedVersions": ">=1.0"
     }
   ],
   "pip_requirements": {
