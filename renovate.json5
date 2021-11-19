@@ -6,6 +6,10 @@
   "recreateClosed": true,
   "packageRules": [
     {
+      "matchPackageNames": ["bandit"],
+      "allowedVersions": "<1.7,>1.7"
+    },
+    {
       "matchManagers": ["pip_requirements"],
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "Python Dependencies Non Major",
