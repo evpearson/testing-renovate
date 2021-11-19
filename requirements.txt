@@ -1,4 +1,4 @@
-click==7.0.0
+click==8.0.3
 ddtrace==0.55.4
 dohq-artifactory==0.7.742
 Flask==2.0.2
