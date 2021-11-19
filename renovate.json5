@@ -12,12 +12,13 @@
       "matchCurrentVersion": ">=1.0.0"
     }
     // Any version updates on 0.x packages may be breaking
-//    {
-//      "matchManagers": ["pip_requirements"],
-//      "matchUpdateTypes": ["patch", "minor"],
-//      "matchCurrentVersion": "<1.0.0",
-//      "commitMessageSuffix": " (potentially breaking change on 0.x dependency)"
- //   }
+    {
+      "matchManagers": ["pip_requirements"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "matchCurrentVersion": "<1.0.0",
+      "commitMessageSuffix": " (potentially breaking change on 0.x dependency)",
+      "prBodyNotes": ["SemVer allows for breaking changes on any version updates when the major version is 0. Thus, this dependency update is not grouped with others."]
+    }
   ],
   "pip_requirements": {
     "fileMatch": [
