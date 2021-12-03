@@ -1,5 +1,5 @@
 click==7.0.0
-ddtrace==0.55.4
+ddtrace==0.56.1
 dohq-artifactory==0.7.742
 Flask==2.0.2
 gevent==21.8.0
