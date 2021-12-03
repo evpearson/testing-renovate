@@ -13,7 +13,8 @@
       "matchManagers": ["pip_requirements"],
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "Python Dependencies Non Major",
-      "matchCurrentVersion": ">=1.0.0"
+      "matchCurrentVersion": ">=1.0.0",
+      "prBodyNotes": ["This PR does not update requirements.lock. You may need to do so manually."]
     },
     // Any version updates on 0.x packages may be breaking
     {
