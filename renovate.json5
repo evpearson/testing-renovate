@@ -1,5 +1,11 @@
 {
+  "extends": [
+    "github>evpearson/testing-renovate",
+  ],
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "python": {
+    "enabled": true
+  },
   "prHourlyLimit": 500,
   "labels": ["dependencies", "renovate"],
   // for testing only
