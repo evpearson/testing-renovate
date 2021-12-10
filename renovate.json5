@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>evpearson/testing-renovate",
+    "github>evpearson/renovate-config",
   ],
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "prHourlyLimit": 500,
