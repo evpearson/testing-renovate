@@ -7,6 +7,9 @@
   "labels": ["dependencies", "renovate"],
   // for testing only
   "recreateClosed": true,
+  "python": {
+     "enabled": true
+  },
   "packageRules": [
     {
       "matchPackageNames": ["bandit"],
