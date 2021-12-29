@@ -19,4 +19,4 @@ wf-logging==1.1.2
 wf-secrets==1.1.0
 wf-stats==3.1.4
 # Note: cannot upgrade past 0.31.1 without refactoring test suite due to change in API
-wheel==0.31.1
+wheel==0.37.1
