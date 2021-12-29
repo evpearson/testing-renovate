@@ -38,9 +38,10 @@
       //"groupName": "Docker image updates"
     //}
       {
-      "matchPackagePatterns": ["^archlinux.*"],
-      "groupName": "Docker Image Updates",
-      "versioning": "regex:^.*-(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)$"
+        "matchManagers": ["dockerfile"],
+        "matchPackagePatterns": ["^archlinux.*"],
+        "groupName": "Docker Image Updates",
+        "versioning": "regex:^.*-(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)$"
     }
 
   ],
