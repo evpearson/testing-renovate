@@ -43,5 +43,10 @@
         ".*requirements-test\\.txt.*",
         ".*requirements.*\\.txt$",
     ]
+  },
+  "docker": {
+    "fileMatch": [
+      ".*\\.dockerfile$"
+      ]
   }
 }
