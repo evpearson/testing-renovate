@@ -32,7 +32,7 @@
       "prBodyNotes": ["SemVer allows for breaking changes on any version updates when the major version is 0. Thus, this dependency update is not grouped with others."]
     },
     {
-      "matchDatasources": ["docker"],
+      "matchDatasources": ["dockerfile"],
       "matchPackageNames": ["python"],
       "versioning": "pep440"
     }
@@ -44,9 +44,7 @@
         ".*requirements.*\\.txt$",
     ]
   },
-  "docker": {
-    "fileMatch": [
-      ".*\\.dockerfile$"
-      ]
-  }
+  "dockerfile": {
+    "fileMatch": ["^.*\\.?(D|d)ockerfile$", "^.*\\.(D|d)ockerfile\\.[^/]*$"]
+  },
 }
