@@ -4,7 +4,7 @@ dohq-artifactory==0.7.742
 Flask==2.0.2
 gevent==21.8.0
 gunicorn==20.1.0
-kubernetes==19.15.0
+kubernetes==21.7.0
 little-cheesemonger==0.2.1
 marble-snake==1.2.0
 packaging==21.2
