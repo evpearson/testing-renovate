@@ -7,7 +7,7 @@ flake8-eradicate==1.2.0
 flake8-print==4.0.0
 flake8==4.0.1
 isort==5.10.1
-mypy==0.910
+mypy==0.930
 pdbpp==0.10.3
 pytest-cov==3.0.0
 pytest-mock==3.6.1
