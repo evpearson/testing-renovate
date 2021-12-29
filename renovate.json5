@@ -31,12 +31,18 @@
       "commitMessageSuffix": " (potentially breaking change on 0.x dependency)",
       "prBodyNotes": ["SemVer allows for breaking changes on any version updates when the major version is 0. Thus, this dependency update is not grouped with others."]
     },
-    {
-      "matchDatasources": ["dockerfile"],
-      "matchPackageNames": ["python"],
-      "versioning": "pep440",
-      "groupName": "Docker image updates"
+    //{
+      //"matchDatasources": ["dockerfile"],
+      //"matchPackageNames": ["python"],
+      //"versioning": "pep440",
+      //"groupName": "Docker image updates"
+    //}
+      {
+      "matchPackagePatterns": ["^archlinux.*"],
+      "groupName": "Docker Image Updates",
+      "versioning": "loose"
     }
+
   ],
   "pip_requirements": {
     "fileMatch": [
