@@ -29,6 +29,11 @@
       "matchCurrentVersion": "<1.0.0",
       "commitMessageSuffix": " (potentially breaking change on 0.x dependency)",
       "prBodyNotes": ["SemVer allows for breaking changes on any version updates when the major version is 0. Thus, this dependency update is not grouped with others."]
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["archlinux"],
+      "versioning": "loose"
     }
   ],
   "pip_requirements": {
