@@ -1,7 +1,6 @@
 {
   "extends": [
     "github>evpearson/renovate-config",
-    "docker:enableMajor"
   ],
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "prHourlyLimit": 500,
