@@ -32,7 +32,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "matchPackageNames": ["archlinux"],
+      "matchPackageNames": ["archlinux", "python"],
       "versioning": "loose"
     }
   ],
