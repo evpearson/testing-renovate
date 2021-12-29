@@ -34,7 +34,8 @@
     {
       "matchDatasources": ["dockerfile"],
       "matchPackageNames": ["python"],
-      "versioning": "pep440"
+      "versioning": "pep440",
+      "groupName": "Docker image updates"
     }
   ],
   "pip_requirements": {
