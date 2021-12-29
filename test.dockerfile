@@ -1,2 +1,2 @@
-FROM python:3.6-buster
-#archlinux:base-devel-20211219.0.41944
+# python:3.6-buster
+FROM archlinux:base-devel-20211219.0.41944
