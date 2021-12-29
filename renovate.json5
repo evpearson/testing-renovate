@@ -40,7 +40,7 @@
       {
       "matchPackagePatterns": ["^archlinux.*"],
       "groupName": "Docker Image Updates",
-      "versioning": "loose"
+      "versioning": "regex:^.*-(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)$"
     }
 
   ],
